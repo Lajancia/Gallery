@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Rock+3D&display=swap');
+
+.button{
+  font-family: 'Orbitron', sans-serif;
+  color:white;
+  font-size: large;
+  
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:orange;
+}
+
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    overflow : scroll;
+}
+
+#container {
+    position:absolute;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+    height:100%;
+    width: 50%;
+    margin:20px;
+    
+}
+.text{
+  font-size: 40px;
+  color:white;
+  margin-top:10px;
+}
